@@ -1,0 +1,25 @@
+Revisao_Entrada de Dados
+
+...
+
+Formula de conversão de temperatura.
+
+Programa que converte a temperatura.
+
+Variavel temperatura fahrenheit
+78
+para temperatura celsius
+"(F - 32) * 5 / 9"
+
+Caso ocorra erro, identificar e corrigir
+
+Programa perguntar temperatura, ao inves de rer um número fixo,
+Esse número seja uma entrada do usuario.
+
+Para isso utilizar a função "input"
+
+Função input sempre devolve um "string".
+Preciso converter para um "float".
+Ter variavel temporaria para converter para "float"
+
+Programa genérico. Que recebe um valor de entrada, faz um calculo e faz uma saida.

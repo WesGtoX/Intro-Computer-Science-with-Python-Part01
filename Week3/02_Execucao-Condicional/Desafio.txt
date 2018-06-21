@@ -1,0 +1,21 @@
+a = ?, b = ?, c = ?
+
+ax ** 2 + bx + c = 0
+a * x ** 2 + b * x + c = 0
+
+delta = (b ** 2) - (4 * a * c)
+x = (- b +- mathsqrt(delta)) / (2 * a)
+
+x1 = (- b + math.sqrt(delta)) / (2 * a)
+x2 = (- b - math.sqrt(delta)) / (2 * a)
+
+Raizes reais
+
+delta < 0
+Está equação não possui raizes reais
+
+delta = 0
+A raiz dessa equação é:
+
+delta > 0
+As raizes da equação são:

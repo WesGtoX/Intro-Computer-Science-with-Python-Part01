@@ -1,0 +1,151 @@
+﻿Manipulação de Listas
+
+--------------------
+
+Fatias de Lista
+--------------------
+primos = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+primos[1:2]	- pega os elementos a partir do indice 1 até o indice 2
+	nesse caso, o elemento [3]
+
+primos[2:7]	- pega os elementos a partir do indice 2 até o 7
+	nesse caso, os elementos [5 ,7 ,11, 13, 17]
+
+Esse comando devolve uma nova lista, ele não altera a lista "primos", ele cria uma nova com os valores
+
+--------------------
+Uma forma mais abreviada:
+
+primos[:12]	- começa desde o inicio, não precisa especificar o primeiro número nesse caso
+
+primos[12:]	- a partir da posição até o final, funciona da mesma forma que o de cima
+
+--------------------
+
+Clonando Listas
+--------------------
+lista1 = ["vermelho", "verde", "azul"]
+lista2 = lista1
+
+Se alterar a posição 0 da "lista2":
+
+lista2[0] = "rosa"
+
+>>> lista2
+["rosa", "verde", "azul"]
+
+A lista1 também vai ser alterada.
+
+>>> lista1
+["rosa", "verde", "azul"]
+
+
+Isto acontece, porque na verdade a "lista1" um está apontando para lista ["vermelho", "verde", "azul"].
+
+Quando a "lista2" recebe a "lista1", a "lsita2" também passa a apontar para ["vermelho", "verde", "azul"].
+
+Ou seja, as duas estão referenciando a mesma lista.
+
+Como clonar uma lista, para que possa alterar uma, sem alterar a outra?
+--------------------
+Programa em Python para clonar lista:
+---
+def clone(lista):
+	clone = []
+	for objeto in lista:
+		clone.append(objeto)
+	return clone
+--------------------
+Fatiamento também cria uma nova lista
+---
+lista1[ini:fim]
+lista1[ini:]
+lista1[:fim]
+lista1[:]	=> Devolve um clone da lista! Não sendo necessário usar a função criada anterior
+
+Todas essas opções cria uma nova lista, contendo um trecho da outra lista.
+
+--------------------
+Pertinência a uma lista
+---
+>>> "rosa" in lista1
+False
+>>> "rosa" in lista2
+True
+>>> if "rosa" in lista1
+>>>
+if "rosa" in lista1:
+	print("está")
+else:
+	print("faltou")
+
+--------------------
+Concatenação de listas
+---
+Significa juntar duas listas, tem uma lista, e concatena com outra lista.
+
+[1,2] + [3,4]
+
+print([4,3,4,5,2] + [2,4,2,4,5,6])
+
+>>> a = [1,2,3]
+>>> b = [4,5,6]
+
+>>> a + b
+[1, 2, 3, 4, 5, 6]
+
+>>> b + a
+[4, 5, 6, 1, 2, 3]
+
+>>> b + a + b
+[4, 5, 6, 1, 2, 3, 4, 5, 6]
+
+--------------------
+Append é um pouco diferente da concatenação de lista
+O "append" altera uma lista existente
+Concatenação não altera, ele gera uma nova lista.
+>>> a. append("gato")
+>>> a
+[1, 2, 3, 'gato']
+>>> b = a + [5]
+[1, 2, 3, 'gato', 5]
+>>> a
+[1, 2, 3, 'gato']
+
+--------------------
+Repetição de listas
+---
+>>> a = [1,2,3]
+>>> a_triplicado = a * 3
+>>> a_triplicado
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+Ele repete a lista "a" n vezes, onde n é o número de parametro passado
+
+Outro exemplo:
+b = [1,2,3,'gato',5]
+>>> b_quintuplicado = b * 5
+>>> b_quintuplicado
+[1, 2, 3, 'gato', 5, 1, 2, 3, 'gato', 5, 1, 2, 3, 'gato', 5, 1, 2, 3, 'gato', 5, 1, 2, 3, 'gato', 5]
+
+--------------------
+Remoção em listas
+---
+Para remover um elemento de uma lista, basta usar o comando "del"
+
+>>> a = [1, 2, 3]
+>>> del a[1]
+>>> a
+[1, 3]
+
+Ele removeu o segundo elemento da lista "a"
+
+>>> lista = ['a','b','c','d','e','f']
+>>> del lista[1:5]
+>>> lista
+['a', 'f']
+
+Remove um pedaço da lista, os quatro elementos contando do segundo até o penultimo
+
+--------------------

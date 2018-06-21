@@ -1,0 +1,10 @@
+Revisao_Pytest
+...
+
+Pytest
+https://docs.pytest.org/en/latest/getting-started.html
+
+assert		- O assert é uma verificação em tempo de execução de uma condição qualquer.
+		  Se a condição não for verdadeira, uma exceção AssertionError acontece e o programa para.
+		  Isto não se usa para condições de erro "esperadas", como por exemplo uma conexão de rede que não abriu.
+		  O objetivo do assert é auxiliar na depuração, verificando a sanidade interna do programa.

@@ -1,0 +1,34 @@
+Revisao_Repetição com while
+
+...
+
+Loop no Python
+
+Pelo comando "while"
+
+while condição:
+	comando1
+	comando2
+comando3
+
+Expressão booleana, algo que vale 'True' ou 'False'
+
+Enquanto a condição for verdadeira, o computador vai continuar executando o laço.
+Quando se tornar falso pela primeira vez, deixa de executar e vai para o comando seguinte.
+Se é falso de cara ele não executa nenhuma vez e pula para o comando 3 direto.
+Se a primeira vez é verdadeiro, exe. comando 1, o comando 2 e dai testa de novo a condição.
+Se for falsa, pula para o 3.
+
+Critério de parada:
+
+Imprimir as 10 primeiras potencias.
+Ex.
+while i <= 10:
+	print(2 ** i)
+	i = i + 1
+
+Preciso variar o valor do i. Apos imprimir '2 elevado a i'
+Preciso incrementar o valor de 'i', somar o valor.
+
+O novo valor de 'i', sera "i + 1", e vai repetindo até o comando ser falso.
+

@@ -1,0 +1,20 @@
+Debug Control
+...
+
+Caixinha Source significa o código fonte,
+a medida que vai passando passo a passo no código,
+ele mostra no códifo fonte a linha executada.
+
+
+O Depurador tem 3 comandos.
+
+Go		- executa tudo de uma vez.
+
+Step	- vai passo a passo, e se tem uma determinada função, 
+		  ele entra nela e mostra passo a passo.
+
+Over	- executa a função inteira, não entra e mostra dentro 
+		  dela passo a passo.
+
+Util para ver qual função que está sendo executada,
+e qual chamou qual

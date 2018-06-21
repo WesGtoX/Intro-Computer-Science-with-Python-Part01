@@ -1,0 +1,44 @@
+Revisao_Introdução ao Python
+...
+
+Python pode ser feito operações basicas de matemática até as mais sofisticadas
+Ex.
+>>> 2 + 2 (soma)
+4
+>>> 3 - 1 (sub.)
+2
+>>> 2 * 4 (mult.)
+8
+>>> 6 / 2 (div.)
+3
+
+Segue regra de multiplicação, precedência de soma.
+Ex.
+>>> 2 + 2 * 3
+8
+Mult. foi executado primeiro
+Utilizar "()" para alterar.
+>>> (2 + 2) * 3
+12
+
+
+Linguagem de programação só utiliza "()", não utiliza "[]" ou "{}"
+Pode ser colocado vários na mesma sentença (linhas).
+Ex.
+>>> (3 - (4 * 20 + (3 - (3 * 7))))
+-59
+
+Operador de potenciação "**"
+2³ = 8
+2 ** 3 = 8
+2³ = 2 ** 3
+
+Pode ser feito comparação utilizando o sinais:
+<	menor
+>	maior
+<=	menor/igual
+>=	maior/igual
+==	comparação igual
+!=	comparação diferente
+
+...

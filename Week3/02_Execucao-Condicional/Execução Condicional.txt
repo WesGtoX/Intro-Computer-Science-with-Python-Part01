@@ -1,0 +1,8 @@
+if condição:
+	comandoV1
+	comandoV2
+	comandoV3
+else:
+	comandoF1
+	comandoF2
+comandoSeguinte

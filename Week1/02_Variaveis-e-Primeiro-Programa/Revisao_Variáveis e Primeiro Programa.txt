@@ -1,0 +1,43 @@
+Revisao_Variáveis e Primeiro Programa
+...
+
+Variavel é um pedaço da mémoria onde guarda valores.
+Ex.
+>>> x = 1
+Valor de "x" agora é "1"
+
+Variaveis podem variar ao longo do programa, podendo mudar seu valor conforme o programa for executando.
+
+Ex.
+>>> x = 5
+Valor de x é 5
+
+>>> x = x + 10
+Valor de x é 15
+
+Forma de mostrar valor
+>>> print(x)
+15
+
+Pode ser guardado também o tipo string, texto (sequancia de caractere).
+Ex.
+>>> frase = "A massa ainda comerá do fino biscoito que fabrico"
+A massa ainda comerá do fino biscoito que fabrico
+
+Definir variaveis: peso, altura e usar comandos. para executar comandos
+Ex. Calcular soma.
+"Somador.py"
+>>> a = 10
+>>> b = 20
+>>> 
+>>> soma = a + b
+>>> 
+>>> print("A soma  dos números é", soma)
+
+Pode ser impresso varias coisas separando por virgulas
+Entre aspas é "string" o que naõ está entre aspas é o valor da variavel.
+
+Ex final.
+A soma dos númeors é 30
+
+...

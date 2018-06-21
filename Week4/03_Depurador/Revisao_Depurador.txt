@@ -1,0 +1,27 @@
+Revisao_Depurador
+
+...
+
+Ferramenta util para encontrar erro no programa.
+
+Depurador nos ajuda a melhorar nosso programa.
+Encontra e nos mostra erro de lógica do qual é dificil de identificar.
+
+O IDLE tem um depurador dentro dele, opção Debug > Debugger.
+
+Com o depuragor ligado, execute o programa, ele destaca a linha da execução do programa.
+
+Para a execução:
+
+Apertando o GO ele executa o programa total.
+O Over executa uma linha inteira, linha por linha do programa.
+
+Ele tem a opção de Breakpoint. Indica um ponto de parada.
+
+Vai executando o programa, mas quando chegar em determinada linha, ele para a execução.
+
+Definindo um Breapoint, ele destaca a linha selecionada de amarelo.
+
+Apertando Over ele continua a execução do ponto de parada.
+
+Posso escolher os pontos d eparada, e ai ele vai executar e posso analizar durante os pontos.

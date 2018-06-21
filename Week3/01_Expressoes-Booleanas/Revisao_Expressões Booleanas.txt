@@ -1,0 +1,75 @@
+Revisao_Expressões Booleanas
+
+...
+
+Valor ou expressões booleano
+Nome vem em homenagem ao matematico britanico Geroge Boole.
+Estudou valores que podem ter apenas dois tipos de coisa,
+Ex.
+Verdadeiro ou falso, 0 ou 1, ligado ou desligado.
+
+Toda compração é verdadeiro ou falso.
+
+Se perguntar o tipo de 'False'
+>>> type(False)
+<class 'bool'>
+Objeto é da clase 'bool'
+
+Pode ser criado expressões booleanas.
+Pegar operadores lógicos tipo: e, ou,  não.
+
+Ex;.
+>>> x > 0 and x 8 **2 > 100 
+Expressão booleana:
+
+Operador Lógico
+
+'and'
+O resultado final só vai ser 'True' se ambos forem 'True'
+Se um dos dois for 'False', o resultado final é 'False'
+Se o primeiro é 'False' ele nem verifica o segundo
+
+'or'
+O resultado final é escolhido se a primeira parte é 'True' ou a segunda parte é 'True'
+Ex.
+>>> x < 0 or x == 12312
+True
+É 'True' pois a primeira parte é 'False' mas a segunda é 'True'
+
+'not'
+Inverte um valor de um valor booleano
+Ex.
+>>> x > 0
+True
+>>> not x > 0
+False
+>>>
+>>> not False
+True
+>>> not True
+False
+>>> not not True
+True: é verdadeiro, pois inverteu duas vezes
+
+Tabela verdade com os valores
+
+and
+Se o primeiro e o segundo são verdadeiro = 'True'
+
+Se o primeiro é  verdadeiro e o segundo é falso = 'False'
+exige que ambos sejam verdadeiro
+
+Se o primeiro e o segundo são falso = 'False'
+
+or
+Se o primeiro e o segundo são verdadeiro = 'True'
+Se o primeiro é verdadeiro e o segundo falso = 'True'
+Se o primeiro é  falso e o segundo é verdadeiro = 'True'
+Se o primeiro e o segundo são falso = 'False'
+
+not
+not True = 'False'
+not False = 'True'
+
+Precedencia de operadores.jpg
+Ordem de execução dos operadores 

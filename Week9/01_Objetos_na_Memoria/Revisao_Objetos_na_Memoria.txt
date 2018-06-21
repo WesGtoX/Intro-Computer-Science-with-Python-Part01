@@ -1,0 +1,63 @@
+﻿Objetos na Memória
+...
+
+Objetos e referências
+---------------------
+String é um objeto immutável
+
+>>> a = "banana"
+>>> b = "banana"
+>>> c = "maçã"
+
+a e b apontam para a string banana que é um local da memória
+
+>>> a is b
+True
+>>> a is c
+False
+
+is		- fala que tanto o a quanto o b apontam para o objeto "banana"
+
+>>> a = [81,82,83]
+>>> b = [81,82,83]
+
+Nesse caso, a lista "a" e "b" apontam para uma lista cada um e essas listas
+apontam para os números, para o mesmo conteudo.
+
+>>> a is b
+False
+
+São objetos diferentes.
+
+>>> a == b
+True
+
+Compara o conteúdo, que é o mesmo.
+
+---------------------
+Repetições e referências
+---------------------
+# lista original
+>>> origilist = [45,76,34,55]
+
+# multiplica a lista em 3, repete a lista
+>>> origilist * 3
+[45, 76, 34, 55, 45, 76, 34, 55, 45, 76, 34, 55]
+
+# cria uma lista de listas, uma lista composta de 3 listas
+>>> [origilist] * 3
+[[45, 76, 34, 55], [45, 76, 34, 55], [45, 76, 34, 55]]
+
+# cria uma lista, que para cada elemento dela, contem a "origilist"
+>> newlist = [origilist] * 3
+>>> newlist
+[[45, 76, 34, 55], [45, 76, 34, 55], [45, 76, 34, 55]]
+
+# substituindo um elemento da "origilist" também altera na "newlist"
+>>> origilist[1] = 99
+>>> origilist
+[45, 99, 34, 55]
+>>> newlist
+[[45, 99, 34, 55], [45, 99, 34, 55], [45, 99, 34, 55]]
+
+---------------------

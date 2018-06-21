@@ -1,0 +1,36 @@
+﻿Listas
+
+Guardar
+- coleção de objetos
+- coleções de coleções
+- listas de listas
+- etc
+
+Ler dados geralemente para realizar analises
+
+t1, t2, t3, t4, t5,...
+
+---------------------
+
+- Array
+- Vector de dados
+
+playlist_do_fabio = ["Round Midnight","Podres Poderes","Journey to the center of the Earth","As rosas não falam"]
+
+lis = [3,5,4,2,62]
+
+playlist_do_fabio[0]
+	imprime o primeiro item da lista
+
+playlist_do_fabio[-1]
+	imprime o último item da lista
+
+Em python uma lista, pode conter vários tipos de elemento.
+
+lista.apeend("novo elemnto")		- concatena um novo elemento no final da lista
+
+---------------------
+
+Faça programa que vai lendo do teclado uma sequência de números inteiros terminadas por zero e quando o usuário digita o zero, 
+ele imprimi essa sequência na ordem inversa. Na ordem ao contrário da ordem que o usuário digitou. O único jeito de implementar 
+isso é usando uma lista, então, por favor, tentem fazer isso.

@@ -1,0 +1,16 @@
+﻿Exercicios Resolvidos
+...
+
+- Quebrar o problema em problemas menores
+
+- Testes automatizados		- a ideia é de, para todo o código que a gente escrever a gente ter também
+				  teste que vai testar aquele código para ver se ele está se comportando de 
+				  forma certa nos vários casos diferentes.
+
+- Refatoração			- Refatoração é uma modificação que você faz no código sem mudar a funcionalidade, 
+				  mas melhorando o código algum aspeto, por exemplo, tornando ele mais claro ou 
+				  eliminando duplicação.
+
+- Eliminar código duplicado
+
+---------------------

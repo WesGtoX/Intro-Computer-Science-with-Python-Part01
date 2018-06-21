@@ -1,0 +1,95 @@
+Revisao_Tipos de Dados
+
+...
+
+Posso perguntar para o Python qual é o tipo do valor
+Ex.
+10
+>>> type(10)
+<class 'int'>
+é um valor da classe dos numeros inteiros
+
+>>> type("tudo bem?")
+<class 'str'>
+é algo da classe string
+
+Pode ter objetos do tipo:
+int = inteiro
+str = string
+
+>>> 5 / 2
+2.5
+>>> type(5 / 2)
+<class 'float'>
+classe "ponto flutuante" representação do computador para apresentar número fracionario.
+
+A divisão em Python com dizima periódica, não tem infinita casas, os "pc" tem precisão limitada.
+
+Para saber a divisão inteira apenas utiliza
+"//"
+Ex.
+>>> 10 // 3
+3
+
+Para saber o resto da divisão, utiliza
+"%"
+>>> 10 % 3
+1
+
+Posso ter variaveis que guardam valor de ponto flutuante
+Ex.
+>>> peso = 78
+>>> altura = 1.83
+>>> 
+>>> peso
+78
+>>> type(altura)
+<class 'float'>
+
+Tenho uma variavel que guarda valor inteiro e outra que guarda da classe float.
+
+Posso fazer conta de tipo IMC
+Ex.
+>>> IMC = peso / (altura ** 2)
+>>> IMC
+23.29122...
+IMC agora é uma variavel "float"
+
+Pode-se fazer também conversao entre tipos
+
+float para int
+Ex.
+>>> IMCInteiro = int(IMC)
+>>> 
+>>> IMCInteiro
+23
+Se tornou uma variavel int, o resto ele joga "fora".
+
+
+>>> texto = "Bom dia, Tudo bem?"
+Posso perguntar o comprimento desse texto
+Utilizando a função
+>>> len(texto)
+18
+Ele me fala que tem 18 caracteres
+
+Ao perguntar o
+>>> len(IMC)
+Ele da erro, pois o objeto float não da pra saber.
+Mas posso converter para saber
+Ex.
+>>> temp = str(IMC)
+>>> temp
+'23.29122...'
+Agora é um string e posso perguntar o comprimento.
+>>> len(temp)
+18
+Posso fazer as duas operações encadeadas
+>>> len(str(IMC))
+18
+
+Podemos fazer conversão entre tipos diferentes 
+tipo inteiro, tipo float e tipo string 
+e passar de um tipo para outro.
+
+...

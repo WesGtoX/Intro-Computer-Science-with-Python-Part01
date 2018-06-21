@@ -1,0 +1,11 @@
+Revisao_Variáveis Booleanas
+
+...
+
+Indicadores de passagem
+
+Usa variavel para indicar se uma determinada condição, passou a ser verdade ou não.
+ai usa em um while, um laço de repetição.
+
+Precisa definir um critério de parada.
+

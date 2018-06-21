@@ -1,0 +1,50 @@
+Revisao_Execução Condicional
+
+...
+
+if.. else
+
+Trecho de código que só vai ser executado caso alguma condição seja satisfeita.
+
+Comando "if" uma condição booleana
+
+>>> if condição:
+	comandoV1
+
+Se for verdadeira, executa o comando
+Caso não for, vai para a linha seguinte.
+
+>>> if condição:
+	comandoV1
+	comandoV2
+Utilizar mais de um comando, desde que use a mesma identação.
+
+Caso seja falso, para executar outra linha de comando.
+Se utiliza o "else"
+
+>>> if condição:
+	comandoV1
+	comandoV2
+	comandoV3
+else:
+	comandoF1
+	comandoF2
+comandoSeguinte
+
+Linguagem Python, os espaços são muito importantes.
+
+Para descobrir algo novo na linguagem Python.
+
+Google > python documentation 'square root'
+
+Dois primeiros links de documentação de python.
+
+Para utilizar raiz quadrada, utilizar
+
+>>> math.sqrt(x)
+
+para utilizar o modulo precisa importa-lo.
+
+>>> import math
+>>> math.sqrt(9)
+3.0

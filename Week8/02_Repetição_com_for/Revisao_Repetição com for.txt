@@ -1,0 +1,57 @@
+﻿Repetição com for
+--------------------
+
+Comando for
+
+Sintaxe:
+for item in lista:
+	COMANDO
+
+A variavel "item" vai percorrer toda a "lista"
+
+--------------------
+range(20)	- cria um intervalo que começa no 0 e vai até o 20
+
+Sintaxe: 
+for i in range(fim):
+	COMANDO
+
+A variavel "i" vai percorrer todo range do seu inicio até o fim
+
+--------------------
+Sintaxe:
+for i in range(ini, fim):
+	COMANDO
+
+A variavel "i" vai percorrer todo range do ponto determinado até o fim
+
+--------------------
+Sintaxe:
+for i in range(ini, fim, passo):
+	COMANDO
+
+A variavel "i" vai percorrer todo range do ponto determinado até o fim em um determinado passo, exemplo, de 2 em 2; 3 em 3; 10 em 10.
+
+--------------------
+Também é possível atribuir o range() a uma variavel:
+
+var =  range(ini, fim, passo):
+for i in var:
+	COMANDO
+
+--------------------
+Para percorrer uma lista ao contrário, se usa passo negativo:
+
+numeros = range (100,0,-5)
+for i in numeros:
+	COMANDO
+
+--------------------
+Para alterar o valor de uma lista percorrendo ela:
+
+for i in range(len(var)):
+	var[i] = var[i] ** 2
+
+nesse caso a variavel "var" vai ter seus valores elevado ao quadrado e vai guardar cada um deles, substituindo os atuais.
+
+--------------------
